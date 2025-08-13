@@ -2,68 +2,58 @@
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+# 🛍️ Product Comparison Tool
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+A simple, interactive React + TypeScript application that allows users to compare products side-by-side.  
+Built with **React** and styled with CSS, the app uses **Unsplash** images for product visuals.
 
-## Expanding the ESLint configuration
+🌐 Live Demo
+**[View Live Demo Here](https://upasanajoddha.github.io/ProductCompareTool/)**
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 🚀 Setup Instructions
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+### 1️⃣ Clone the repository
+```bash
+git clone https://github.com/your-username/product-comparison-tool.git
+cd product-comparison-tool
 ```
-
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+### 2️⃣ Install dependencies
 ```
+npm install
+```
+### 3️⃣ Run the development server
+```
+npm run dev
+```
+Open http://localhost:5173 in your browser.
+
+✨ Features
+Product Grid View – Displays 6–8 products with:
+
+Name
+Brand
+Image (from Unsplash)
+Price
+Key features (e.g., battery life, storage, etc.)
+Add to Compare – Select up to 3 products to compare.
+Dynamic Comparison Table – Displays selected products side-by-side.
+Responsive Design – Works on desktop and mobile.
+
+📌 Assumptions
+Product images are sourced from Unsplash using direct URLs.
+Data is currently static (productsData array in the code).
+Comparison is limited to 3 products to keep the UI clean.
+No backend – all logic is handled client-side.
+
+📸 Screenshots
+
+🌐 Live Demo
+**[View Live Demo Here](https://upasanajoddha.github.io/ProductCompareTool/)**
+
+🛠 Tech Stack
+React (TypeScript)
+Material UI (UI components)
+lucide-react (icons)
+CSS for custom styling
+Unsplash for product images
+
