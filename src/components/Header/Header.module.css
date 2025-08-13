@@ -1,0 +1,113 @@
+/* .headerRoot {
+    width: 100%;
+  }
+  .themeBtn {
+    margin-left: 8px;
+  } */
+
+  .headerRoot {
+    backdrop-filter: blur(12px);
+    border-bottom: 1px solid transparent;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+    transition: background 0.3s ease, border-color 0.3s ease;
+  }
+  
+  .light {
+    background: rgba(255, 255, 255, 0.75) !important;
+    border-color: rgba(0, 0, 0, 0.05);
+  }
+  
+  .dark {
+    background: rgba(20, 20, 20, 0.75) !important;
+    border-color: rgba(255, 255, 255, 0.1);
+  }
+  
+  .toolbar {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+  }
+  
+  .brand {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .brandIcon {
+    color: #3b82f6;
+  }
+  
+  .brandText {
+    font-weight: 600;
+  }
+  
+  .light .brandText {
+    color: #1e293b;
+  }
+  
+  .dark .brandText {
+    color: #ffffff;
+  }
+  
+  .actions {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  
+  .searchField {
+    min-width: 220px;
+    border-radius: 50px;
+    background: var(--search-bg);
+  }
+  
+  .searchField:hover {
+    background: var(--search-hover-bg);
+  }
+  
+  .light .searchField {
+    --search-bg: rgba(0, 0, 0, 0.04);
+    --search-hover-bg: rgba(0, 0, 0, 0.06);
+  }
+  
+  .dark .searchField {
+    --search-bg: rgba(255, 255, 255, 0.05);
+    --search-hover-bg: rgba(255, 255, 255, 0.1);
+  }
+  
+  .searchField .MuiOutlinedInput-notchedOutline {
+    border: none !important;
+  }
+  .noOutline {
+    border: none !important;
+    box-shadow: none !important;
+  }
+  
+  .searchField input {
+    padding: 8px 14px !important;
+  }
+  
+  .searchIcon {
+    opacity: 0.6;
+  }
+  
+  .themeBtn {
+    background: var(--theme-btn-bg) !important;
+    transition: background 0.2s ease;
+  }
+  
+  .themeBtn:hover {
+    background: var(--theme-btn-hover) !important;
+  }
+  
+  .light .themeBtn {
+    --theme-btn-bg: rgba(0, 0, 0, 0.05);
+    --theme-btn-hover: rgba(0, 0, 0, 0.08);
+  }
+  
+  .dark .themeBtn {
+    --theme-btn-bg: rgba(255, 255, 255, 0.08);
+    --theme-btn-hover: rgba(255, 255, 255, 0.15);
+  }
+  

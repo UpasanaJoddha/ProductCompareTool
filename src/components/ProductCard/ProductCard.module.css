@@ -1,0 +1,34 @@
+.cardRoot {
+    border-radius: 12px;
+    overflow: hidden;
+    transition: transform 0.2s ease;
+  }
+  .cardSelected {
+    border: 2px solid #3b82f6;
+    transform: scale(1.02);
+  }
+  .media {
+    height: 200px;
+    object-fit: cover;
+  }
+  .features {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin-bottom: 8px;
+    /* margin-top: 4px; */
+  }
+  .addBtn {
+    width: 100%;
+  }
+  .selectionBadge {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    background: #3b82f6;
+    color: white;
+    padding: 4px 8px;
+    border-radius: 9999px;
+    font-weight: 600;
+    font-size: 12px;
+  }
