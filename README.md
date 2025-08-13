@@ -54,7 +54,6 @@ Product Grid View – Displays 6–8 products with:
 ![Comparison Table](./screenshots/Comparison_Table.png)
 ![Dark Mode](./screenshots/Dark_Mode.png)
 ![Dark Mode 2](./screenshots/Dark_Mode2.png)
-![Phone View ](./screenshots/Phone_View.jpg)
 
 
 🛠 Tech Stack
