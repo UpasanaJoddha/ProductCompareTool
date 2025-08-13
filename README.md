@@ -30,20 +30,20 @@ Open http://localhost:5173 in your browser.
 ✨ Features
 Product Grid View – Displays 6–8 products with:
 
-Name
-Brand
-Image (from Unsplash)
-Price
-Key features (e.g., battery life, storage, etc.)
-Add to Compare – Select up to 3 products to compare.
-Dynamic Comparison Table – Displays selected products side-by-side.
-Responsive Design – Works on desktop and mobile.
+- Name
+- Brand
+- Image (from Unsplash)
+- Price
+- Key features (e.g., battery life, storage, etc.)
+- Add to Compare – Select up to 3 products to compare.
+- Dynamic Comparison Table – Displays selected products side-by-side.
+- Responsive Design – Works on desktop and mobile.
 
 📌 Assumptions
-Product images are sourced from Unsplash using direct URLs.
-Data is currently static (productsData array in the code).
-Comparison is limited to 3 products to keep the UI clean.
-No backend – all logic is handled client-side.
+- Product images are sourced from Unsplash using direct URLs.
+- Data is currently static (productsData array in the code).
+- Comparison is limited to 3 products to keep the UI clean.
+- No backend – all logic is handled client-side.
 
 📸 Screenshots
 
@@ -51,9 +51,9 @@ No backend – all logic is handled client-side.
 **[View Live Demo Here](https://upasanajoddha.github.io/ProductCompareTool/)**
 
 🛠 Tech Stack
-React (TypeScript)
-Material UI (UI components)
-lucide-react (icons)
-CSS for custom styling
-Unsplash for product images
+- React (TypeScript)
+- Material UI (UI components)
+- lucide-react (icons)
+- CSS for custom styling
+- Unsplash for product images
 
