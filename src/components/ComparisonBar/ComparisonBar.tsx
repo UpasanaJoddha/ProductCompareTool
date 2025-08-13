@@ -1,4 +1,3 @@
-import React from 'react';
 import Button from '@mui/material/Button';
 import { X } from 'lucide-react';
 import { Product } from '../../data/products';
