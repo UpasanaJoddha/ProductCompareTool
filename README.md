@@ -1,7 +1,5 @@
 # React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
 # 🛍️ Product Comparison Tool
 
 A simple, interactive React + TypeScript application that allows users to compare products side-by-side.  
@@ -45,15 +43,18 @@ Product Grid View – Displays 6–8 products with:
 - Comparison is limited to 3 products to keep the UI clean.
 - No backend – all logic is handled client-side.
 
+
+🌐 Live Demo
+**[View Live Demo Here](https://upasanajoddha.github.io/ProductCompareTool/)**
+
 📸 Screenshots
+
 ![Product List](./screenshots/Product_List.png)
 ![Product To Compare](./screenshots/Product_To_Compare.png)
 ![Comparison Table](./screenshots/Comparison_Table.png)
 ![Dark Mode](./screenshots/Dark_Mode.png)
 ![Dark Mode 2](./screenshots/Dark_Mode2.png)
 
-🌐 Live Demo
-**[View Live Demo Here](https://upasanajoddha.github.io/ProductCompareTool/)**
 
 🛠 Tech Stack
 - React (TypeScript)
