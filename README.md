@@ -46,6 +46,11 @@ Product Grid View – Displays 6–8 products with:
 - No backend – all logic is handled client-side.
 
 📸 Screenshots
+![Product List](./screenshots/Product_List.png)
+![Product To Compare](./screenshots/Product_To_Compare.png)
+![Comparison Table](./screenshots/Comparison_Table.png)
+![Dark Mode](./screenshots/Dark_Mode.png)
+![Dark Mode 2](./screenshots/Dark_Mode2.png)
 
 🌐 Live Demo
 **[View Live Demo Here](https://upasanajoddha.github.io/ProductCompareTool/)**
